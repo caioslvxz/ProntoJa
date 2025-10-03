@@ -44,11 +44,13 @@ Flask-Bcrypt
 
 ### 3. Instale as Dependências
 
-Você pode instalar todas as dependências do projeto (frontend e backend) com um único comando a partir da pasta raiz.
+Agora que o frontend e o backend estão desacoplados, você deve instalar as dependências de cada um separadamente.
 
-Primeiro, instale o `concurrently` (a dependência de desenvolvimento principal):
+**Para o Frontend:**
 ```bash
+cd frontend
 npm install
+cd ..
 ```
 
 Em seguida, execute o script de instalação para as duas partes do projeto:
